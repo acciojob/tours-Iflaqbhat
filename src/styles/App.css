@@ -1,12 +1,42 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.tour img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.tour {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tour h4 {
+  margin: 0;
+}
+
+.tour .price {
+  color: #007bff;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
 }
